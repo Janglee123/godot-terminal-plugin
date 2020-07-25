@@ -1,0 +1,32 @@
+# SConstruct db
+*.dblite
+
+# Godot Serialisations
+api.json
+
+# Visual Studio Cache
+.vs/
+
+# VSCode Cache
+.vscode/
+
+# Binaries
+bin/
+intermediate/
+build/
+*.dll
+*.obj
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.exe
+*.os
+*.out
+.import/
+
+# Binaries for distribution
+!/demo/bin/
+!git2.lib
+!libgit.a
+godot-cpp
