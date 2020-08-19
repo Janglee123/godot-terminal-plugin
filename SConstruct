@@ -76,6 +76,6 @@ env.Append(LIBS=[godot_library, 'util'])
 sources = []
 add_sources(sources, "src")
 
-library = env.SharedLibrary(target='demo/addons/terminal/bin/libterminal', source=sources)
+library = env.SharedLibrary(target='demo/addons/terminal/native/bin/libterminal', source=sources)
 Default(library)
 

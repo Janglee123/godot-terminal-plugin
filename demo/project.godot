@@ -14,10 +14,10 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/terminal/Control.gd"
 }, {
-"base": "",
+"base": "Reference",
 "class": "Terminal",
 "language": "NativeScript",
-"path": "res://addons/terminal/bin/Terminal.gdns"
+"path": "res://addons/terminal/native/Terminal.gdns"
 } ]
 _global_script_class_icons={
 "Term": "",

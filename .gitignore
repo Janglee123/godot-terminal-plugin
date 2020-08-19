@@ -26,7 +26,7 @@ build/
 .import/
 
 # Binaries for distribution
-!/demo/bin/
+!/demo/native/bin
 !git2.lib
 !libgit.a
 godot-cpp

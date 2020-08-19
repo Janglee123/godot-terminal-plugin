@@ -2,7 +2,7 @@ extends Control
 class_name Term
 tool
 
-const pty : NativeScript = preload("res://addons/terminal/bin/Terminal.gdns")
+const pty : NativeScript = preload("res://addons/terminal/native/Terminal.gdns")
 
 onready var screen := $Panel/TextEdit as RichTextLabel
 onready var term := pty.new() as Terminal

@@ -2,7 +2,7 @@ tool
 extends EditorPlugin
 
 const UI: PackedScene = preload("res://addons/terminal/Control.tscn")
-const pty: NativeScript = preload("res://addons/terminal/bin/Terminal.gdns")
+const pty: NativeScript = preload("res://addons/terminal/native/Terminal.gdns")
 const TITLE: String = "Terminal"
 var dock : Control
 var term : Terminal
